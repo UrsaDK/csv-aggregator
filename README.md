@@ -1,6 +1,6 @@
 # CSV-Aggregator
 
-the We need a Ruby program that can take data from the three CSV files included and produce the new CSV or JSON formats by running it like so:
+We need a Ruby program that can take data from the three CSV files included and produce the new CSV or JSON formats by running it like so:
 
     $ ruby combine.rb --format json journals.csv articles.csv authors.json > full_articles.json
     $ ruby combine.rb --format csv journals.csv articles.csv authors.json > full_articles.csv
