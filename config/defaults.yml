@@ -1,0 +1,11 @@
+output_format: csv
+
+stores:
+  articles: ./resources/articles.csv
+  authors: ./resources/authors.json
+  journals: ./resources/journals.csv
+
+csv:
+  # Any parameter undestood by CSV.new
+  # https://ruby-doc.org/stdlib-2.5.0/libdoc/csv/rdoc/CSV.html#method-c-new
+  headers: true
